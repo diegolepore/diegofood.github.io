@@ -1,0 +1,39 @@
+
+li{
+    position: relative;
+    &:not(:last-child){
+        border-bottom: 1px dashed #bbbbbb;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    
+}
+
+p{
+    margin: 0;
+}
+
+.item-img{
+    width: 80px;
+    display: inline-block;
+}
+
+.info-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.info-container h3{
+    margin: 0;
+    font-size: 18px;
+}
+
+button.remove {
+    position: absolute;
+    right: 0;
+    border: 0;
+    background: transparent;
+    top: 50%;
+    transform: translateY(-50%);
+}

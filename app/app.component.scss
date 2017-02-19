@@ -1,0 +1,38 @@
+.app {
+    header{
+        background-color: #252b30; 
+        padding: 20px 0;
+        .cart-main{
+            position: relative;
+            .cart-elem{
+                position: absolute;
+                background-color: #ffffff;
+                border-radius: 5px;
+                padding: 10px;
+                box-shadow: 0 0 12px rgba(0,0,0,0.4);
+                width: 300px;
+                right: 0;
+                top: 44px;
+                z-index: 30;
+                &:before{
+                    content: "";
+                    width: 25px;
+                    height: 25px;
+                    background: #ffffff;
+                    position: absolute;
+                    top: -3px;
+                    right: 58px;
+                    transform: rotate(45deg);
+                }
+            }
+        }
+        
+        .logo{
+            width: 50px;
+            height: 34px;
+            background: url(../images/logo-dp.png) no-repeat center center;
+            background-size: contain;
+            float: left;
+        }
+    }
+}

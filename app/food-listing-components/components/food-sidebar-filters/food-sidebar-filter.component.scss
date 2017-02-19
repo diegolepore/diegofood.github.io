@@ -1,0 +1,12 @@
+button.category-btn {
+    display: block;
+    background: transparent;
+    border: 0;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid transparent;
+    &:hover{
+        border-bottom: 1px dashed #e2e2e2;
+        color: #27ae60 !important;
+    }
+}
